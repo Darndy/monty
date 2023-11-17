@@ -1,10 +1,10 @@
 #include "monty.h"
 struct info_s info = {"stack", NULL, NULL, 0};
 /**
- * main - main function
+ * main - the main function(entry point)
  * @argv: arguments vector array
  * @argc: argv length
- * Return: 0 or other thing in faliure
+ * Return: 0 on failiure
 */
 int main(int argc, char *argv[])
 {
