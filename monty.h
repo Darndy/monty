@@ -10,15 +10,6 @@
 #include <errno.h>
 #define _POSIX_C_SOURCE 200809L
 
-/**
- * struct info_s - struct information about the code format
- * @mode: program mode stack and queue
- * @LINE: line number
- * @monty_file: monty file
- * @splitted_line: line holding command
- *
- * Description: mode and line number
- */
 struct info_s
 {
         char *mode;
